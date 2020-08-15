@@ -1,0 +1,572 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+
+}
+html{
+    font-size: 62.5%;
+}
+:root {
+    --div-height: 100vh;
+    
+}
+
+.center_div {
+    height: calc(var(--div-height));
+}
+.center1_div  .up_div{
+    height: calc(var(--div-height) - 60vh);
+    
+}
+.center1_div .up_div{
+    border-radius: 1rem;
+    
+}
+.center1_div  .down_div{
+    height: calc(var(--div-height) - 40vh);
+    
+}
+.center1_div .down_div{
+    border-radius: 1rem;
+    
+}
+
+.up_div .image1{
+
+    width:100%;
+    height:30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-1rem;
+    box-sizing: border-box;
+}
+.up_div .image1 img{
+    width:70%!important;
+    height: 19vh!important;
+}
+
+    
+    
+   
+   
+ 
+  .font1 h1{
+    
+    
+width:auto;
+    
+   /*width: 35rem;*/
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-top:-2rem;
+    
+    
+   
+    text-transform: uppercase;
+    
+    margin-left: 2rem;
+}
+.font1 p{
+    width:auto;
+   /* background-color:blueviolet;
+    
+    width: 35rem;*/
+     height: 4vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-sizing: border-box;
+     
+     font-weight: 700;
+     font-size: 1rem;
+  margin-right: 7rem;
+}
+.up_div .but{
+    
+    font-weight: 900;
+    width:auto;
+    height:5vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -2rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+box-sizing: border-box;
+}
+.up_div .but button{
+    margin-left:2rem;
+   border-radius: 1rem;
+        font-size: 1.5rem;
+       box-sizing: border-box;
+}         
+      
+    
+            
+  
+
+.center1_div .down_div{
+    background-color:rgba(0, 0, 0, 0.999);
+    box-sizing: border-box;
+}/* image section of icon*/
+.down_div .row{
+    margin-top: 3rem;
+    margin-left:-4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.row .image{
+    width:6rem;
+    height: 6vh;
+    margin-top: 0.4rem;
+    margin-left: 1.2rem;
+    box-sizing: border-box;
+
+    
+}
+.up_div .img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/*icon css*/
+.row .icon1{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width:10rem;
+    height:10vh;
+    background-color:rgba(204, 193, 193, 0.589);
+}
+
+.row .icon2{
+    margin-left: 7.5rem;
+    margin-top: 1rem;
+    width:10rem;
+    height:10vh;
+    background-color:rgba(204, 193, 193, 0.589);
+}
+
+.row .icon3{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width:10rem;
+    height:10vh;
+    background-color:rgba(204, 193, 193, 0.589)
+}
+.row .icon4{
+    margin-top: 1rem;
+    margin-left: 7.4rem;
+    width:10rem;
+    height:10vh;
+    background-color: rgba(204, 193, 193, 0.589);
+}
+.row .icon5{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width:10rem;
+    height:10vh;
+    background-color:rgba(204, 193, 193, 0.589);
+}
+
+.row .icon6{
+    margin-top: 1rem;
+    margin-left: 7.4rem;
+    width:10rem;
+    height:10vh;
+    background-color: rgba(204, 193, 193, 0.589);
+}
+.row .icon7{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width:10rem;
+    height:10vh;
+    background-color: rgba(204, 193, 193, 0.589);
+}
+.row .icon8{
+    margin-top: 1rem;
+    margin-left: 7.4rem;
+    width:10rem;
+    height:10vh;
+    background-color: rgba(204, 193, 193, 0.589);
+}
+/* font size*/
+
+.row .iconfont{
+    font-weight: 800;
+    margin-top: 0.5rem;
+    font-size:0.9rem;
+    margin-left: 1.7rem;
+    
+}
+.row .iconfont0{
+    font-weight: 800;
+    margin-top: 0.2rem;
+    font-size:0.9rem;
+    margin-left: 1.7rem;
+    
+}
+.row .iconfont1{
+    font-weight: 800;
+    font-size:1rem;
+    margin-top: 0.4rem;
+    margin-left: 1.5rem;
+}
+.row .iconfont3{
+    font-weight: 800;
+    font-size:0.9rem;
+    margin-top: 0.4rem;
+    margin-left: 2rem;
+}
+.row .iconfont4{
+    font-weight: 800;
+    font-size:1rem;
+    margin-top: 0.5rem;
+    margin-left: 2.5rem;
+}
+
+.row .iconfont6{
+    font-size:1rem;
+    font-weight: 800;
+
+    margin-left: 2.4rem;
+}
+.row .iconfont8{
+    font-weight: 900;
+    font-size:1rem;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+/*button see more
+.up_div .but button{
+    margin-left:2rem;
+   border-radius: 1rem;
+        font-size: 1.5rem;
+       box-sizing: border-box;
+                
+      
+    
+            
+  } */
+  .down_div .but{
+    
+    font-weight: 900;
+    width:auto;
+    height:5vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: -2.5rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+box-sizing: border-box;
+}
+.down_div .but button{
+    margin-left:2rem;
+   border-radius: 1rem;
+        font-size: 1.5rem;
+       box-sizing: border-box;
+                
+    
+  }
+ 
+    /* Extra small devices (phones, 600px and down) */
+      @media only screen and (max-width: 600px) {
+        .center1_div  .up_div{
+            height: calc(var(--div-height) - 75vh);}
+           /* .row .up_div {
+                
+                background-color: yellowgreen;
+               
+                
+            }*/
+            .up_div .image1{
+
+
+                margin-top:-8rem;
+                box-sizing: border-box;
+            }
+            .up_div .image1 img{
+                width:60%;
+                height: 10vh;
+            }
+            .up_div .font1{
+                
+                margin-top:-10rem;
+                width:100%;
+                height: auto;
+                
+                
+            }
+            .font1 h1{
+               /* background-color: blueviolet;*/
+                display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-weight: 700;
+                    width: 100%;
+                    
+                    font-size: 1.2rem;
+                    margin-left: -.2rem;
+            margin-top: 2rem;
+            box-sizing: border-box;
+        
+            
+            }
+                  
+        
+            .font1 p
+        {/*background-color: cyan;*/
+                 
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-weight: 700;
+                    width: 100%;
+                    
+                    font-size: 1rem;
+                    margin-left: -.2rem;
+                    margin-top: -1rem!important;
+                    box-sizing: border-box;
+        }
+        .up_div .but button{
+            margin-top: -2rem;
+            margin-left:2rem;
+           border-radius: 1rem;
+                font-size: 1rem;
+               box-sizing: border-box;
+        }         
+        
+            
+           
+        
+        
+        }
+
+                
+                
+                
+               
+               
+        
+            
+            
+        
+        
+    
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .row .up_div {
+                
+       /* background-color: blue;*/
+       
+        
+    }
+    .up_div .image1{
+
+         
+      
+        box-sizing: border-box;
+    }
+    .up_div .image1 img{
+        width:80%;
+        height: 14vh;
+    }
+    .up_div .font1{
+
+        width:auto;
+        height: auto;
+
+        
+        
+    }
+     .font1 h1{
+       /* background-color: blueviolet;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        width: 100%;
+        
+        font-size: 1.4rem;
+        margin-left: -.2rem;
+    
+        
+
+    box-sizing: border-box;
+
+    
+    }
+          
+
+    .font1 p
+{/*background-color: cyan;*/
+         
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 700;
+            width: 100%;
+            
+            
+            margin-left: -.2rem;
+            margin-top: -.9rem!important;
+            box-sizing: border-box;
+    
+
+    
+   
+
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+   /* .row .up_div {
+                
+        background-color: green;
+       
+        
+    }*/
+    
+    .up_div .font1{
+
+        width:auto;
+        height: auto;
+        
+        
+    }
+    .font1 h1{
+        /*background-color: blueviolet;*/
+    
+    box-sizing: border-box;
+
+    
+   
+          
+}
+    .font1 p
+{/*
+background-color: cyan;*/
+         
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 700;
+            width: 100%;
+            
+            font-size: 1.4rem;
+            margin-left: -.2rem;
+            margin-top: -.9rem!important;
+            box-sizing: border-box;
+    
+
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .row .up_div {
+                
+       /* background-color: rgb(145, 16, 16);*/
+        }
+        .up_div .font1{
+
+            width:auto;
+            height: auto;
+            
+        }
+        .down_div .row .col-lg-6 {
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            box-sizing: border-box;
+
+        }
+        .font1 h1{
+           /* background-color:green;*/
+        
+        box-sizing: border-box;
+        }
+        
+        .font1 p
+    {
+        /*background-color: cyan;*/
+             
+                display: flex;
+                font-weight: 700;
+                width: auto;
+                
+                font-size: 1.4rem;
+                margin-left: 7rem;
+                margin-top: -.9rem!important;
+        
+    
+    }
+    
+    
+        
+       
+              
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /*  .row .up_div {
+                
+        background-color: green;
+       
+        
+    }*/
+    .up_div .font1{
+
+        width:auto;
+        height: auto;
+        
+    }
+    .font1 h1{
+       /* background-color: red;*/
+    
+    box-sizing: border-box;
+
+    
+   
+          
+}
+    .font1 p
+{/*background-color: cyan;*/
+         
+            display: flex;
+            font-weight: 700;
+            width: auto;
+            
+            
+            margin-left: 7rem;
+            margin-top: -.9rem!important;
+    
+
+}
+}
